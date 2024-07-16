@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.outerBox{
+    background-color: rgb(57, 57, 244);
+    height: 96vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerBox{
+    border: 5px solid black;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

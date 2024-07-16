@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "user"
+    },
+    {
+      "id": "cf03",
+      "name": "sucha",
+      "email": "sucha@fmail.com",
+      "password": "43211234",
+      "propic": "defren.com"
+    },
+    {
+      "id": "698b",
+      "name": "Harchut",
+      "email": "harchi@gmail.com",
+      "password": "4321678",
+      "propic": "https://pxbars.com/wp-content/uploads/2024/03/cute-girl-cartoon-picture.jpeg"
+    }
+  ]
+}

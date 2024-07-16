@@ -1,0 +1,10 @@
+.row{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.cardItem{
+    flex-basis: 23%;
+    margin: 1%;
+    height: 50%;
+}

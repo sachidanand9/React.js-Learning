@@ -1,0 +1,8 @@
+#right{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(224, 219, 219);
+    display: flex;
+    justify-content: center;
+}
+ 

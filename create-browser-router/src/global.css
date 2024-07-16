@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav>ul{
+    height: 100%;
+    width:50%;
+    margin:auto;
+    /* border: 1px solid red; */
+    box-shadow:  0 5px 15px gray;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+nav>ul>li{
+    border: 1px solid rgb(99, 97, 97);
+    padding:6px 15px;
+    /* border: 1px solid gainsboro; */
+    box-shadow: 0 0 5px gainsboro ;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    box-shadow: 0 0 5px rgb(30, 30, 30);
+    font-size: larger;
+    font-weight: 600;
+
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(241, 35, 35);
+}
+
+nav>ul>li:hover{
+    background-color: rgb(241, 35, 35);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+    /* cursor: pointer; */
+}
+nav>ul>li:hover>a{
+color: aliceblue;
+}
+
+#form-container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#form-container>form{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+    box-shadow:  0 5px 25px gray;
+
+}
+#form-container>form>h1{
+    text-align: center;
+}
+#form-container>form>.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px ;
+}
+#form-container>form>.form-group>label{
+    font-weight: 600;
+    font-size: larger;
+}
+#form-container>form>.form-group>input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+#form-container>form>.form-group>button{
+    padding: 10px 0;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    color: rgb(241, 35, 35);
+    border: 1px solid rgb(99, 97, 97);
+    /* background-color: gainsboro; */
+    border-radius: 10px;
+}
+#form-container>form>.form-group>button:hover{
+    background-color: rgb(241, 35, 35);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(189 189 189);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#profile-container{
+    height: calc(100vh - 80px);
+    width: 40%;
+    border: 1px solid red ;
+}

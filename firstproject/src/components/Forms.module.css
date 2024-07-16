@@ -1,0 +1,10 @@
+#left{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(224, 219, 219);
+    
+
+}
+#left>h1{
+    margin-left: 90px;
+}
